@@ -10,8 +10,7 @@ Example Module Reference:
 
 ```
 module "remote_state_creation" {
-  source = "github.com/Advin24/remote-state-creation/aws"
-  ref    = "v0.0.1-alpha-aws-module"
+  source = "github.com/Advin24/remote-state-creation//aws?ref=v0.0.1-alpha-aws-module"
 
   bucket_name = {
     # suffix = "backstage-training"
